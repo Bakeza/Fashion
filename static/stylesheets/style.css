@@ -1,0 +1,64 @@
+body {
+	background:grey ;
+}
+.image_girl_and_shoes {
+	display:inline-block; 
+	padding: 50px;
+	
+
+}
+.image_next_to_text {
+
+	display:inline-block; 
+	padding: 20px;
+	vertical-align: middle;
+}	
+.nav_bar{
+	border: solid black 5px ;
+	padding: 10px ;
+
+
+}
+.girl_image {
+	border:solid black  10px;
+	border-radius: 50%;
+}
+.shoes_image {
+	color: red ;
+	border:solid darkred  10px;
+	border-radius: 50%; }
+.picture_of_me {
+
+	border:solid hotpink  10px;
+	border-radius: 50%; }
+
+
+.nav_bar li { font-size: 40px;
+	display:inline ;
+	margin: 20px 20px;
+}
+.nav_bar li:hover{
+        color: red ;
+        
+}
+
+
+.nav_bar{
+        
+        border: solid black 5px ;
+        padding: 10px ;
+}
+h3 { font-size: 60px;
+	color: red ;
+	text-align: center;
+	font-family:  "Courier New" ;
+}
+
+
+ul {font-size: 20px;
+
+}
+h4 { font-size: 30px;
+	color: hotpink ;
+	font-family:  "Courier New" ;
+}
