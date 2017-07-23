@@ -1,5 +1,21 @@
 {%extends "layout.html"%}
-{%block body %}
-<p>dresses to do</p>
-<h1>{{name}}</h1>
+{%block head%}
+<link rel="stylesheet" type="text/css" href="../static/stylesheets/style.css">
 {%endblock%}
+{%block body%}
+
+<div>
+	<img  class="dress_part1 next" src="../static/images/dress1.jpg"></img> 
+	<img class="dress_part1 next " src="../static/images/dress2.jpg"></img> 
+</div>
+
+<div>
+	<img class="dress_part2 next" src="../static/images/dress3.jpg"></img> 
+	<img class="dress_part2 next" src="../static/images/dress4.jpg"></img> 
+</div>
+<div class = "see_more">
+	<h1>See More ... </h1>
+</div>
+
+{%endblock%}
+

@@ -1,24 +1,31 @@
 
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="../static/stylesheets/style.css">
-
+{%block head%}
+{%endblock%}
 </head>
 <body>
 
 <h1> <img src= "../static/images/illustration.jpg" width="100%"> </img>  </h1>
-<h2> Home page </h2>
+
 <h3> Sections:</h3>
-<ul class ="nav_bar"> 
-	<li> <a href="/"  >Home </a> </li>
+<div  class ="nav_bar">
+	<ul> 
+	
 	<li> <a href="/dresses" > Dresses </a>   </li>
-	<li> Pants  </li>
-	<li> T-Shirts </li>
+	<li> <a href="/pants" >Pants </a> </li>
+	<li> <a href="/t-shirts" > T-Shirts </a></li>
 	<li> Shoes </li>
 	<li> Accessories </li>
 	<li> Bags </li>
-	
 </ul>
+
+
+<ul>
+	<li id="home_center"> <a href="/" > Home </a> </li>
+</ul>
+
+</div>
 
 
 	

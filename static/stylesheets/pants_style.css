@@ -1,9 +1,11 @@
 body {
-	background:grey ;
+	background:darkred  ;
 }
 .image_girl_and_shoes {
 	display:inline-block; 
 	padding: 50px;
+	
+
 }
 .image_next_to_text {
 
@@ -14,12 +16,15 @@ body {
 .nav_bar{
 	border: solid black 5px ;
 	padding: 10px ;
+
+
 }
 .girl_image {
 	border:solid black  10px;
 	border-radius: 50%;
 }
 .shoes_image {
+	color: red ;
 	border:solid darkred  10px;
 	border-radius: 50%; }
 .picture_of_me {
@@ -27,27 +32,22 @@ body {
 	border:solid hotpink  10px;
 	border-radius: 50%; }
 
-.nav_bar li { 
-	font-size: 40px;
+
+.nav_bar li { font-size: 40px;
 	display:inline ;
-
-	/*float : ce;*/
 	margin: 20px 20px;
-
-}
-
-.nav_bar ul {
-	width: 100% ;
-	margin: auto;
-	text-align: center;
 }
 .nav_bar li:hover{
-        color: red ;       
+        color: red ;
+        
 }
+
+
+
 .nav_bar{
         
         border: solid black 5px ;
-    
+        padding: 10px ;
 }
 h3 { font-size: 60px;
 	color: red ;
@@ -62,31 +62,4 @@ ul {font-size: 20px;
 h4 { font-size: 30px;
 	color: hotpink ;
 	font-family:  "Courier New" ;
-}
-.dress_part1 {
-	border: solid lightblue 10px;
-	border-radius: 30%;
-	margin: 10px;
-
-
-	}
-.dress_part2 {
-	border: solid lightblue 10px;
-	border-radius: 30%;
-	margin: 10px;
-
-
-	}
-.next {
-	display:inline-block; 
-}
-
-.see_more {
-	text-align: center;
-
-}
-
-#home_center {
-	text-align: center;
-
 }
